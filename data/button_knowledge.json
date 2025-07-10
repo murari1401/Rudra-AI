@@ -1,0 +1,16 @@
+{
+  "WhatsApp": {
+    "video call": ["video call", "camera", "🎥"],
+    "voice call": ["call", "📞", "phone"],
+    "search": ["search", "🔍"],
+    "attach": ["attach", "📎"],
+    "send": ["send", "➤", "arrow", "paper plane"]
+  },
+  "Instagram": {
+    "home": ["home", "🏠"],
+    "search": ["search", "🔍"],
+    "profile": ["profile", "👤"],
+    "message": ["message", "✉️"],
+    "reels": ["reels", "🎞️"]
+  }
+}
