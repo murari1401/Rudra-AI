@@ -70,10 +70,7 @@ RUDRA_AI/
 ├── requirements.txt
 └── README.md
 
-yaml
-Copy
-Edit
-
+ 
 ---
 
 ## ⚙️ How to Run
@@ -83,15 +80,11 @@ Edit
 git clone https://github.com/murari1401/RudraAI
 cd RUDRA_AI
 🔹 2. Set up Virtual Environment
-bash
-Copy
-Edit
+ 
 python -m venv venv
 venv\Scripts\activate   # Windows
 🔹 3. Install Python Dependencies
-bash
-Copy
-Edit
+ 
 pip install -r requirements.txt
 🔹 4. Install Tesseract-OCR (for icon recognition)
 Download from: https://github.com/tesseract-ocr/tesseract
@@ -99,9 +92,7 @@ Download from: https://github.com/tesseract-ocr/tesseract
 Add its path to environment variables
 
 🔹 5. Run the Assistant
-bash
-Copy
-Edit
+ 
 python main.py
 ✨ Unity UI must be running separately. Launch Unity and open the hologram project before starting Python.
 
@@ -129,10 +120,6 @@ Murari | Software Developer & AI Creator
 📍 India
 
 ⚠️ This is an experimental, evolving project meant for personal AI research and development.
-
-vbnet
-Copy
-Edit
 
 ---
 
