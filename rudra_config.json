@@ -1,0 +1,31 @@
+{
+  "user_name": "Murari",
+  "assistant_name": "RUDRA",
+  "wake_word": "hey rudra"
+}
+{
+  "features": {
+    "voice_assistant": true,
+    "gesture_control": true,
+    "screen_reader": true,
+    "interface_knowledge": true
+  },
+  "modules": {
+    "voice_assistant": {
+      "enabled": true,
+      "language": "en-US"
+    },
+    "gesture_control": {
+      "enabled": true,
+      "sensitivity": 0.5
+    },
+    "screen_reader": {
+      "enabled": true,
+      "voice_speed": 1.0
+    },
+    "interface_knowledge": {
+      "enabled": true,
+      "knowledge_base_path": "/path/to/knowledge_base"
+    }
+  }
+}
