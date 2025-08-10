@@ -1,0 +1,24 @@
+{
+    "system_commands":  {
+                            "close":  [
+                                          "close",
+                                          "exit",
+                                          "quit"
+                                      ],
+                            "google_search":  [
+                                                  "google",
+                                                  "search for",
+                                                  "look up"
+                                              ],
+                            "minimize":  [
+                                             "minimize",
+                                             "hide"
+                                         ]
+                        },
+    "voice_settings":  {
+                           "volume":  0.9,
+                           "rate":  150,
+                           "energy_threshold":  4000,
+                           "pause_threshold":  0.8
+                       }
+}

@@ -1,0 +1,30 @@
+{
+  "voice": {
+    "rate": 145,
+    "volume": 0.9,
+    "voice_id": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\\Voices\\Tokens\\TTS_MS_EN-US_DAVID_11.0",
+    "pitch": 0.9
+  },
+  "ui": {
+    "theme": "dark",
+    "animation_speed": 1.0,
+    "glass_effect": true
+  },
+  "system": {
+    "wake_word": "rudra",
+    "language": "en-US",
+    "timeout": 5,
+    "confidence_threshold": 0.7
+  },
+  "responses": {
+    "greeting": "Greetings sir, how may I assist you today?",
+    "farewell": "Goodbye sir, it was a pleasure helping you.",
+    "error": "I sincerely apologize sir, but I encountered an issue. Would you like me to try again?",
+    "success": "Task completed successfully, sir. Is there anything else you need?"
+  },
+  "personality": {
+    "politeness": "high",
+    "formality": "professional",
+    "addressing": "sir/madam"
+  }
+}

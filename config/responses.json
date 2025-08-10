@@ -1,0 +1,22 @@
+{
+  "greetings": {
+    "hello": "Hello! I'm RUDRA, your AI assistant.",
+    "hi": "Hi there! How can I help?",
+    "hey": "Hey! What can I do for you?",
+    "good morning": "Good morning! Ready to help.",
+    "good afternoon": "Good afternoon! How can I assist?",
+    "good evening": "Good evening! What do you need?"
+  },
+  "farewells": {
+    "bye": "Goodbye! Have a great day!",
+    "goodbye": "Goodbye! Take care!",
+    "see you": "See you later!",
+    "thank you": "You're welcome!"
+  },
+  "system": {
+    "error": "I encountered an error. Please try again.",
+    "not_understood": "I didn't catch that. Could you repeat?",
+    "processing": "Processing your request...",
+    "success": "Done!"
+  }
+}
