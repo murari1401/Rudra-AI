@@ -109,9 +109,9 @@ class AboutDialog(QDialog):
         dev1 = self.create_developer_card(
             "B. Murari",
             "Lead Developer & AI Engineer",
-            "linkedin.com/in/murari",
-            "github.com/murari",
-            "murari@email.com"
+            "https://www.linkedin.com/in/murari-b-178517330/",
+            "https://github.com/murari1401/",
+            "begarimurari@email.com"
         )
         dev_layout.addWidget(dev1)
 
@@ -119,9 +119,9 @@ class AboutDialog(QDialog):
         dev2 = self.create_developer_card(
             "B. Meghana",
             "UI/UX Designer & System Architect",
-            "linkedin.com/in/meghana",
+            "https://www.linkedin.com/in/baddam-meghana-484723353/",
             "github.com/meghana",
-            "meghana@email.com"
+            "meghanagoud0828@email.com"
         )
         dev_layout.addWidget(dev2)
 
@@ -230,4 +230,5 @@ class AboutDialog(QDialog):
 
         # Store ripple position
         self._ripple_pos = pos
+
         self._ripple_radius = 0
