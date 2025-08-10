@@ -7,10 +7,10 @@ from win32com.client import Dispatch
 class AppLauncher:
     def __init__(self):
         self.app_paths = {
-            'whatsapp': '5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App',
-            'instagram': 'Facebook.InstagramBeta_8xx8rvfyw5nnt!App',
-            'notepad': 'Microsoft.WindowsNotepad_8wekyb3d8bbwe!App',
-            'calculator': 'Microsoft.WindowsCalculator_8wekyb3d8bbwe!App'
+            'whatsapp': 'whatsapp location in your pc',
+            'instagram': 'instagram location in your pc',
+            'notepad': 'notepad locatio in your pc',
+            'calculator': 'calculator location in your pc'
         }
 
     def open_app(self, app_name: str) -> bool:
@@ -27,8 +27,8 @@ class AppLauncher:
 class WhatsAppSender:
     def __init__(self):
         self.contact_map = {
-            'mummy': '+916302407375',
-            'daddy': '+919177391764'
+            'mummy': 'add phone number',
+            'daddy': 'you can add phone number too'
         }
         self.app_launcher = AppLauncher()
 
@@ -57,3 +57,4 @@ class WhatsAppSender:
 
         except Exception as e:
             return False, f"Failed to send message: {str(e)}"
+
